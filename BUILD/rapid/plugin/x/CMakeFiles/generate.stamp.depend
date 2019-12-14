@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+F:/Software/mysql-5.7.12/mysql-5.7.12/rapid/plugin/x/CMakeLists.txt
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/compile_flags.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/rapid/plugin/x/mysqlx_protobuf.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/rapid/plugin/x/source_files.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/rapid/plugin/x/mysqlx_error.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/rapid/plugin/x/src/mysqlx_error.h.in

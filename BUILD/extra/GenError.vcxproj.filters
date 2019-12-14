@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\ce2b75af09bed59583a341da0d99560c\mysqld_error.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\a5debc3c1355aacd2be4b1f22d9a63a0\GenError.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\extra\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\extra\CMakeFiles\GenError" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D0EA31FF-22C5-3EBF-88AA-E4F94D53F6A2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

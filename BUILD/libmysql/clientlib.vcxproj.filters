@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libmysql\get_password.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libmysql\libmysql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libmysql\errmsg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\sql-common\client.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\sql-common\my_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\sql-common\client_plugin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\sql-common\client_authentication.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\sql\net_serv.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\sql-common\pack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\sql\auth\password.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libmysql\mysql_trace.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libmysql\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1B671E79-B9FD-3112-B478-184543DB05C1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

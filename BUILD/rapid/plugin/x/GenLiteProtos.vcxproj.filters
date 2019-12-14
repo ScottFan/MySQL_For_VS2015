@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\0b4eed1da0d631de4389923450f19d23\mysqlx.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\0b4eed1da0d631de4389923450f19d23\mysqlx_datatypes.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\0b4eed1da0d631de4389923450f19d23\mysqlx_connection.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\0b4eed1da0d631de4389923450f19d23\mysqlx_expect.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\0b4eed1da0d631de4389923450f19d23\mysqlx_expr.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\0b4eed1da0d631de4389923450f19d23\mysqlx_crud.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\0b4eed1da0d631de4389923450f19d23\mysqlx_sql.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\0b4eed1da0d631de4389923450f19d23\mysqlx_session.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\0b4eed1da0d631de4389923450f19d23\mysqlx_notice.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\0b4eed1da0d631de4389923450f19d23\mysqlx_resultset.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\c097f16455c5ccbf5cb11711a333b046\GenLiteProtos.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\rapid\plugin\x\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\rapid\plugin\x\CMakeFiles\GenLiteProtos" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D0EA31FF-22C5-3EBF-88AA-E4F94D53F6A2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

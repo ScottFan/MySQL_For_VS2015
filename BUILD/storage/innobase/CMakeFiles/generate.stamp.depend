@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+F:/Software/mysql-5.7.12/mysql-5.7.12/storage/innobase/CMakeLists.txt
+F:/Software/mysql-5.7.12/mysql-5.7.12/storage/innobase/innodb.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckFunctionExists.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCSourceCompiles.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCSourceRuns.cmake

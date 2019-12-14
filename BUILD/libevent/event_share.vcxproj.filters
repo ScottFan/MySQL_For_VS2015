@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\event.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\evbuffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\log.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\signal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\evutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\event_tagging.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\evrpc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\strlcpy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\WIN32-Code\win32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\event-internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\evutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\evhttp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\http-internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\evdns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\evrpc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\evrpc-internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\strlcpy-internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA88301-6F03-3C07-BA99-FBDE78C3A6E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1B671E79-B9FD-3112-B478-184543DB05C1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

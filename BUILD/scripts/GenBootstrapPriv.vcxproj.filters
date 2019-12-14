@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\5d1a563651ccff8233d6ae6b5996a5e6\sql_commands_system_data.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\5d1a563651ccff8233d6ae6b5996a5e6\sql_commands_system_tables.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\5d1a563651ccff8233d6ae6b5996a5e6\sql_commands_help_data.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\6cb7e3439d46f3c2c5eb8be5ddae1dd2\GenBootstrapPriv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\scripts\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\scripts\CMakeFiles\GenBootstrapPriv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D0EA31FF-22C5-3EBF-88AA-E4F94D53F6A2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

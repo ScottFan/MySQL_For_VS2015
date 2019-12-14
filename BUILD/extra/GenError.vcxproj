@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3DE18F2F-0B41-3CB2-AB64-DBBBAAE75D51}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>GenError</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\include;F:\Software\mysql-5.7.12\mysql-5.7.12\zlib;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\lz4;F:\Software\mysql-5.7.12\mysql-5.7.12\storage\ndb\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\storage\ndb\include;F:\Software\mysql-5.7.12\mysql-5.7.12\storage\ndb\include\ndbapi;F:\Software\mysql-5.7.12\mysql-5.7.12\storage\ndb\include\mgmapi;F:\Software\mysql-5.7.12\mysql-5.7.12\storage\innobase\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\include;F:\Software\mysql-5.7.12\mysql-5.7.12\zlib;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\lz4;F:\Software\mysql-5.7.12\mysql-5.7.12\storage\ndb\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\storage\ndb\include;F:\Software\mysql-5.7.12\mysql-5.7.12\storage\ndb\include\ndbapi;F:\Software\mysql-5.7.12\mysql-5.7.12\storage\ndb\include\mgmapi;F:\Software\mysql-5.7.12\mysql-5.7.12\storage\innobase\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\include;F:\Software\mysql-5.7.12\mysql-5.7.12\zlib;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\lz4;F:\Software\mysql-5.7.12\mysql-5.7.12\storage\ndb\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\storage\ndb\include;F:\Software\mysql-5.7.12\mysql-5.7.12\storage\ndb\include\ndbapi;F:\Software\mysql-5.7.12\mysql-5.7.12\storage\ndb\include\mgmapi;F:\Software\mysql-5.7.12\mysql-5.7.12\storage\innobase\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\include;F:\Software\mysql-5.7.12\mysql-5.7.12\zlib;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\lz4;F:\Software\mysql-5.7.12\mysql-5.7.12\storage\ndb\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\storage\ndb\include;F:\Software\mysql-5.7.12\mysql-5.7.12\storage\ndb\include\ndbapi;F:\Software\mysql-5.7.12\mysql-5.7.12\storage\ndb\include\mgmapi;F:\Software\mysql-5.7.12\mysql-5.7.12\storage\innobase\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\ce2b75af09bed59583a341da0d99560c\mysqld_error.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../include/mysqld_error.h, ../sql/share/english/errmsg.sys</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+Debug\comp_err.exe --charset=F:/Software/mysql-5.7.12/mysql-5.7.12/sql/share/charsets --out-dir=F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/sql/share/ --header_file=F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/include/mysqld_error.h --name_file=F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/include/mysqld_ername.h --state_file=F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/include/sql_state.h --in_file=F:/Software/mysql-5.7.12/mysql-5.7.12/sql/share/errmsg-utf8.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/CMakeFiles/ce2b75af09bed59583a341da0d99560c/mysqld_error.h.rule;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\share\errmsg-utf8.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\comp_err.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include\mysqld_error.h;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\share\english\errmsg.sys</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../include/mysqld_error.h, ../sql/share/english/errmsg.sys</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+Release\comp_err.exe --charset=F:/Software/mysql-5.7.12/mysql-5.7.12/sql/share/charsets --out-dir=F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/sql/share/ --header_file=F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/include/mysqld_error.h --name_file=F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/include/mysqld_ername.h --state_file=F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/include/sql_state.h --in_file=F:/Software/mysql-5.7.12/mysql-5.7.12/sql/share/errmsg-utf8.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/CMakeFiles/ce2b75af09bed59583a341da0d99560c/mysqld_error.h.rule;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\share\errmsg-utf8.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\comp_err.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include\mysqld_error.h;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\share\english\errmsg.sys</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../include/mysqld_error.h, ../sql/share/english/errmsg.sys</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+MinSizeRel\comp_err.exe --charset=F:/Software/mysql-5.7.12/mysql-5.7.12/sql/share/charsets --out-dir=F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/sql/share/ --header_file=F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/include/mysqld_error.h --name_file=F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/include/mysqld_ername.h --state_file=F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/include/sql_state.h --in_file=F:/Software/mysql-5.7.12/mysql-5.7.12/sql/share/errmsg-utf8.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/CMakeFiles/ce2b75af09bed59583a341da0d99560c/mysqld_error.h.rule;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\share\errmsg-utf8.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\comp_err.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include\mysqld_error.h;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\share\english\errmsg.sys</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../include/mysqld_error.h, ../sql/share/english/errmsg.sys</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+RelWithDebInfo\comp_err.exe --charset=F:/Software/mysql-5.7.12/mysql-5.7.12/sql/share/charsets --out-dir=F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/sql/share/ --header_file=F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/include/mysqld_error.h --name_file=F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/include/mysqld_ername.h --state_file=F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/include/sql_state.h --in_file=F:/Software/mysql-5.7.12/mysql-5.7.12/sql/share/errmsg-utf8.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/CMakeFiles/ce2b75af09bed59583a341da0d99560c/mysqld_error.h.rule;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\share\errmsg-utf8.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\comp_err.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include\mysqld_error.h;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\share\english\errmsg.sys</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\a5debc3c1355aacd2be4b1f22d9a63a0\GenError.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/CMakeFiles/a5debc3c1355aacd2be4b1f22d9a63a0/GenError.rule;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include\mysqld_error.h;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\share\english\errmsg.sys;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\share\errmsg-utf8.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\extra\CMakeFiles\GenError</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/CMakeFiles/a5debc3c1355aacd2be4b1f22d9a63a0/GenError.rule;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include\mysqld_error.h;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\share\english\errmsg.sys;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\share\errmsg-utf8.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\extra\CMakeFiles\GenError</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/CMakeFiles/a5debc3c1355aacd2be4b1f22d9a63a0/GenError.rule;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include\mysqld_error.h;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\share\english\errmsg.sys;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\share\errmsg-utf8.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\extra\CMakeFiles\GenError</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/CMakeFiles/a5debc3c1355aacd2be4b1f22d9a63a0/GenError.rule;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include\mysqld_error.h;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\share\english\errmsg.sys;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\share\errmsg-utf8.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\extra\CMakeFiles\GenError</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\extra\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Software/mysql-5.7.12/mysql-5.7.12/extra/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Software/mysql-5.7.12/mysql-5.7.12 -BF:/Software/mysql-5.7.12/mysql-5.7.12/BUILD --check-stamp-file F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/extra/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/extra/CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\cmake\compile_flags.cmake;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\extra\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Software/mysql-5.7.12/mysql-5.7.12/extra/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Software/mysql-5.7.12/mysql-5.7.12 -BF:/Software/mysql-5.7.12/mysql-5.7.12/BUILD --check-stamp-file F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/extra/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/extra/CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\cmake\compile_flags.cmake;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\extra\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/Software/mysql-5.7.12/mysql-5.7.12/extra/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Software/mysql-5.7.12/mysql-5.7.12 -BF:/Software/mysql-5.7.12/mysql-5.7.12/BUILD --check-stamp-file F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/extra/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/extra/CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\cmake\compile_flags.cmake;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\extra\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/Software/mysql-5.7.12/mysql-5.7.12/extra/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Software/mysql-5.7.12/mysql-5.7.12 -BF:/Software/mysql-5.7.12/mysql-5.7.12/BUILD --check-stamp-file F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/extra/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/extra/CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\cmake\compile_flags.cmake;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\extra\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\extra\CMakeFiles\GenError" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\ZERO_CHECK.vcxproj">
+      <Project>{6E0F20AC-AF3F-3912-95DB-8A8B0DC35503}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\extra\comp_err.vcxproj">
+      <Project>{4989B94F-7CD9-393E-9A63-7F940AC1C838}</Project>
+      <Name>comp_err</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

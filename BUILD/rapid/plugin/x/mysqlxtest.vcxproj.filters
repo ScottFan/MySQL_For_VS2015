@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\rapid\plugin\x\mysqlxtest_src\boost_code.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\rapid\plugin\x\mysqlxtest_src\mysql41_hash.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\rapid\plugin\x\mysqlxtest_src\mysqlx.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\rapid\plugin\x\mysqlxtest_src\mysqlx_charset.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\rapid\plugin\x\mysqlxtest_src\mysqlx_crud.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\rapid\plugin\x\mysqlxtest_src\mysqlx_row.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\rapid\plugin\x\mysqlxtest_src\mysqlx_sync_connection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\rapid\plugin\x\mysqlxtest_src\mysqlxtest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\rapid\plugin\x\mysqlxtest_src\password_hasher.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\rapid\plugin\x\mysqlxtest_src\common\expr_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\rapid\plugin\x\mysqlxtest_src\common\orderby_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\rapid\plugin\x\mysqlxtest_src\common\proj_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\rapid\plugin\x\mysqlxtest_src\common\utils_mysql_parsing.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\rapid\plugin\x\ngs\src\protocol_authentication.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\rapid\plugin\x\protobuf\mysqlx.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\rapid\plugin\x\protobuf\mysqlx_datatypes.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\rapid\plugin\x\protobuf\mysqlx_connection.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\rapid\plugin\x\protobuf\mysqlx_expect.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\rapid\plugin\x\protobuf\mysqlx_expr.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\rapid\plugin\x\protobuf\mysqlx_crud.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\rapid\plugin\x\protobuf\mysqlx_sql.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\rapid\plugin\x\protobuf\mysqlx_session.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\rapid\plugin\x\protobuf\mysqlx_notice.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\rapid\plugin\x\protobuf\mysqlx_resultset.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\9df2d0f68dcf4e189a017b76bf6cd4db\mysqlx.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\9df2d0f68dcf4e189a017b76bf6cd4db\mysqlx_datatypes.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\9df2d0f68dcf4e189a017b76bf6cd4db\mysqlx_connection.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\9df2d0f68dcf4e189a017b76bf6cd4db\mysqlx_expect.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\9df2d0f68dcf4e189a017b76bf6cd4db\mysqlx_expr.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\9df2d0f68dcf4e189a017b76bf6cd4db\mysqlx_crud.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\9df2d0f68dcf4e189a017b76bf6cd4db\mysqlx_sql.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\9df2d0f68dcf4e189a017b76bf6cd4db\mysqlx_session.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\9df2d0f68dcf4e189a017b76bf6cd4db\mysqlx_notice.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\CMakeFiles\9df2d0f68dcf4e189a017b76bf6cd4db\mysqlx_resultset.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\rapid\plugin\x\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\versioninfo_exe.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D0EA31FF-22C5-3EBF-88AA-E4F94D53F6A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1B671E79-B9FD-3112-B478-184543DB05C1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

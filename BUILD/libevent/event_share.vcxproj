@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{807ABCB2-4E71-32DE-8373-66DBE7737C19}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>event_share</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libevent\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">event_share.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">event_share</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libevent\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">event_share.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">event_share</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libevent\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">event_share.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">event_share</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libevent\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">event_share.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">event_share</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\libevent;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat\sys;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\WIN32-Code;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4800;4805;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ENABLED_DEBUG_SYNC;SAFE_MUTEX;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;CMAKE_INTDIR="Debug";event_share_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;ENABLED_DEBUG_SYNC;SAFE_MUTEX;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\";event_share_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat\sys;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\WIN32-Code;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat\sys;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\WIN32-Code;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/libevent/Debug/event_share.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/libevent/Debug/event_share.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\libevent;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat\sys;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\WIN32-Code;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4800;4805;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;CMAKE_INTDIR="Release";event_share_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;CMAKE_INTDIR=\"Release\";event_share_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat\sys;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\WIN32-Code;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat\sys;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\WIN32-Code;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/libevent/Release/event_share.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/libevent/Release/event_share.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\libevent;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat\sys;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\WIN32-Code;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4800;4805;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;CMAKE_INTDIR="MinSizeRel";event_share_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\";event_share_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat\sys;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\WIN32-Code;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat\sys;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\WIN32-Code;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/libevent/MinSizeRel/event_share.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/libevent/MinSizeRel/event_share.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\libevent;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat\sys;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\WIN32-Code;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4800;4805;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;CMAKE_INTDIR="RelWithDebInfo";event_share_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\";event_share_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat\sys;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\WIN32-Code;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat\sys;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\WIN32-Code;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/libevent/RelWithDebInfo/event_share.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/libevent/RelWithDebInfo/event_share.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Software/mysql-5.7.12/mysql-5.7.12/libevent/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Software/mysql-5.7.12/mysql-5.7.12 -BF:/Software/mysql-5.7.12/mysql-5.7.12/BUILD --check-stamp-file F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/libevent/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/libevent/CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libevent\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Software/mysql-5.7.12/mysql-5.7.12/libevent/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Software/mysql-5.7.12/mysql-5.7.12 -BF:/Software/mysql-5.7.12/mysql-5.7.12/BUILD --check-stamp-file F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/libevent/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/libevent/CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libevent\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/Software/mysql-5.7.12/mysql-5.7.12/libevent/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Software/mysql-5.7.12/mysql-5.7.12 -BF:/Software/mysql-5.7.12/mysql-5.7.12/BUILD --check-stamp-file F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/libevent/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/libevent/CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libevent\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/Software/mysql-5.7.12/mysql-5.7.12/libevent/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Software/mysql-5.7.12/mysql-5.7.12 -BF:/Software/mysql-5.7.12/mysql-5.7.12/BUILD --check-stamp-file F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/libevent/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/libevent/CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libevent\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\event.h" />
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\event-internal.h" />
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\evutil.h" />
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\log.h" />
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\event.c" />
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\buffer.c" />
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\evbuffer.c" />
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\log.c" />
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\signal.c" />
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\evutil.c" />
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\event_tagging.c" />
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\evhttp.h" />
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\http-internal.h" />
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\evdns.h" />
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\evrpc.c" />
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\evrpc.h" />
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\evrpc-internal.h" />
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\strlcpy.c" />
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\strlcpy-internal.h" />
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\libevent\WIN32-Code\win32.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\ZERO_CHECK.vcxproj">
+      <Project>{6E0F20AC-AF3F-3912-95DB-8A8B0DC35503}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

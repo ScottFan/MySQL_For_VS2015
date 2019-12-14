@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+F:/Software/mysql-5.7.12/mysql-5.7.12/libbinlogstandalone/CMakeLists.txt
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/FindZLIB.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/InstallRequiredSystemLibraries.cmake

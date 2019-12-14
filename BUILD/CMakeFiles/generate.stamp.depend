@@ -1,0 +1,116 @@
+# CMake generation dependency list for this directory.
+F:/Software/mysql-5.7.12/mysql-5.7.12/CMakeLists.txt
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/FindGit.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/CMakeFiles/3.11.1/CMakeSystem.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeSystemSpecificInitialize.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/CMakeFiles/3.11.1/CMakeCCompiler.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/CMakeFiles/3.11.1/CMakeCXXCompiler.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeSystemSpecificInformation.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeGenericSystem.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeInitializeConfigs.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/Platform/Windows.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/Platform/WindowsPaths.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeCInformation.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeLanguageInformation.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC-C.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/CMakeFiles/3.11.1/CMakeRCCompiler.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeRCInformation.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeCommonLanguageInclude.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeCXXInformation.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeLanguageInformation.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/Compiler/MSVC-CXX.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeCommonLanguageInclude.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/os/Windows.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCSourceCompiles.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCXXSourceCompiles.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckStructHasMember.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCSourceCompiles.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCXXSourceCompiles.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckLibraryExists.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckFunctionExists.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCCompilerFlag.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCSourceCompiles.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCSourceRuns.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckSymbolExists.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckTypeSize.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckIncludeFile.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckIncludeFileCXX.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/os/WindowsCache.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckTypeSize.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckIncludeFile.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckIncludeFileCXX.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/build_configurations/compiler_options.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCCompilerFlag.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCXXCompilerFlag.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCXXSourceCompiles.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/build_configurations/feature_set.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/character_sets.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/cpu_info.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/zlib.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/lz4.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/libevent.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/ssl.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/readline.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/protobuf.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/mysql_version.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/VERSION
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/package_name.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/cpack_source_ignore_files.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/versioninfo.rc.in
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/versioninfo.rc.in
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/libutils.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/cmake_parse_arguments.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/compile_flags.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/dtrace.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/plugin.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/cmake_parse_arguments.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/install_macros.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/cmake_parse_arguments.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/install_layout.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/mysql_add_executable.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/cmake_parse_arguments.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCSourceCompiles.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCXXSourceCompiles.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/boost.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/configure.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCSourceCompiles.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCXXSourceCompiles.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckStructHasMember.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckLibraryExists.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckFunctionExists.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCCompilerFlag.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCSourceRuns.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCXXSourceRuns.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckSymbolExists.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/FindThreads.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckLibraryExists.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckSymbolExists.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckIncludeFile.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckIncludeFiles.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/TestBigEndian.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckTypeSize.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckIncludeFile.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckIncludeFileCXX.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/maintainer.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/abi_check.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/tags.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/config.h.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/config.h.cmake
+F:/Software/mysql-5.7.12/mysql-5.7.12/include/mysql_version.h.in
+F:/Software/mysql-5.7.12/mysql-5.7.12/sql/sql_builtin.cc.in
+F:/Software/mysql-5.7.12/mysql-5.7.12/cmake/info_macros.cmake.in
+F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/info_macros.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CPack.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CPackComponent.cmake
+E:/Program Files (x86)/CMake/share/cmake-3.11/Templates/CPackConfig.cmake.in
+E:/Program Files (x86)/CMake/share/cmake-3.11/Templates/CPackConfig.cmake.in

@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9895D64E-2F81-3784-8D61-186C52EBD15F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>mysqld</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mysqld.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mysqld</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mysqld.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mysqld</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mysqld.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mysqld</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mysqld.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mysqld</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\conn_handler;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\auth;F:\Software\mysql-5.7.12\mysql-5.7.12\regex;F:\Software\mysql-5.7.12\mysql-5.7.12\zlib;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\taocrypt\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4800;4805;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4099</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ENABLED_DEBUG_SYNC;SAFE_MUTEX;_VARIADIC_MAX=10;HAVE_YASSL;YASSL_PREFIX;HAVE_OPENSSL;MULTI_THREADED;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;MYSQL_SERVER;HAVE_REPLICATION;AUTHENTICATION_WIN;CMAKE_INTDIR="Debug";mysqld_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;ENABLED_DEBUG_SYNC;SAFE_MUTEX;_VARIADIC_MAX=10;HAVE_YASSL;YASSL_PREFIX;HAVE_OPENSSL;MULTI_THREADED;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;MYSQL_SERVER;HAVE_REPLICATION;AUTHENTICATION_WIN;CMAKE_INTDIR=\"Debug\";mysqld_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\conn_handler;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\auth;F:\Software\mysql-5.7.12\mysql-5.7.12\regex;F:\Software\mysql-5.7.12\mysql-5.7.12\zlib;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\taocrypt\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\conn_handler;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\auth;F:\Software\mysql-5.7.12\mysql-5.7.12\regex;F:\Software\mysql-5.7.12\mysql-5.7.12\zlib;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\taocrypt\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message></Message>
+      <Command>setlocal
+cd F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\client\Debug\echo.exe x64 &amp;&amp; cscript //nologo F:/Software/mysql-5.7.12/mysql-5.7.12/win/create_def_file.js x64 F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\$(Configuration)\sql.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\$(Configuration)\binlog.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\$(Configuration)\slave.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\mysys\$(Configuration)\mysys.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\mysys_ssl\$(Configuration)\mysys_ssl.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\dbug\$(Configuration)\dbug.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\regex\$(Configuration)\regex.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\strings\$(Configuration)\strings.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\vio\$(Configuration)\vio.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\lib\$(Configuration)\binlogevents.lib &gt; mysqld.def
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;Debug\sql.lib;Debug\binlog.lib;Debug\rpl.lib;Debug\master.lib;Debug\slave.lib;Debug\sql.lib;..\mysys\Debug\mysys.lib;..\mysys_ssl\Debug\mysys_ssl.lib;..\libbinlogevents\lib\Debug\binlogevents.lib;..\storage\archive\Debug\archive.lib;..\storage\blackhole\Debug\blackhole.lib;..\storage\csv\Debug\csv.lib;..\storage\federated\Debug\federated.lib;..\storage\heap\Debug\heap.lib;..\storage\innobase\Debug\innobase.lib;..\extra\Debug\lz4_lib.lib;..\storage\myisam\Debug\myisam.lib;..\storage\myisammrg\Debug\myisammrg.lib;..\storage\partition\Debug\partition.lib;..\storage\perfschema\Debug\perfschema.lib;..\plugin\fulltext\Debug\ngram_parser.lib;..\vio\Debug\vio.lib;..\regex\Debug\regex.lib;..\extra\yassl\Debug\yassl.lib;..\extra\yassl\taocrypt\Debug\taocrypt.lib;..\libmysql\authentication_win\Debug\auth_win_client.lib;Secur32.lib;..\mysys\Debug\mysys.lib;..\dbug\Debug\dbug.lib;..\mysys\Debug\mysys.lib;..\dbug\Debug\dbug.lib;..\zlib\Debug\zlib.lib;..\strings\Debug\strings.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/sql/Debug/mysqld.lib</ImportLibrary>
+      <ModuleDefinitionFile>mysqld.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/sql/Debug/mysqld.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\conn_handler;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\auth;F:\Software\mysql-5.7.12\mysql-5.7.12\regex;F:\Software\mysql-5.7.12\mysql-5.7.12\zlib;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\taocrypt\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4800;4805;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4099</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;_VARIADIC_MAX=10;HAVE_YASSL;YASSL_PREFIX;HAVE_OPENSSL;MULTI_THREADED;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;MYSQL_SERVER;HAVE_REPLICATION;AUTHENTICATION_WIN;CMAKE_INTDIR="Release";mysqld_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;_VARIADIC_MAX=10;HAVE_YASSL;YASSL_PREFIX;HAVE_OPENSSL;MULTI_THREADED;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;MYSQL_SERVER;HAVE_REPLICATION;AUTHENTICATION_WIN;CMAKE_INTDIR=\"Release\";mysqld_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\conn_handler;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\auth;F:\Software\mysql-5.7.12\mysql-5.7.12\regex;F:\Software\mysql-5.7.12\mysql-5.7.12\zlib;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\taocrypt\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\conn_handler;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\auth;F:\Software\mysql-5.7.12\mysql-5.7.12\regex;F:\Software\mysql-5.7.12\mysql-5.7.12\zlib;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\taocrypt\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message></Message>
+      <Command>setlocal
+cd F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\client\Release\echo.exe x64 &amp;&amp; cscript //nologo F:/Software/mysql-5.7.12/mysql-5.7.12/win/create_def_file.js x64 F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\$(Configuration)\sql.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\$(Configuration)\binlog.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\$(Configuration)\slave.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\mysys\$(Configuration)\mysys.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\mysys_ssl\$(Configuration)\mysys_ssl.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\dbug\$(Configuration)\dbug.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\regex\$(Configuration)\regex.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\strings\$(Configuration)\strings.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\vio\$(Configuration)\vio.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\lib\$(Configuration)\binlogevents.lib &gt; mysqld.def
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;Release\sql.lib;Release\binlog.lib;Release\rpl.lib;Release\master.lib;Release\slave.lib;Release\sql.lib;..\mysys\Release\mysys.lib;..\mysys_ssl\Release\mysys_ssl.lib;..\libbinlogevents\lib\Release\binlogevents.lib;..\storage\archive\Release\archive.lib;..\storage\blackhole\Release\blackhole.lib;..\storage\csv\Release\csv.lib;..\storage\federated\Release\federated.lib;..\storage\heap\Release\heap.lib;..\storage\innobase\Release\innobase.lib;..\extra\Release\lz4_lib.lib;..\storage\myisam\Release\myisam.lib;..\storage\myisammrg\Release\myisammrg.lib;..\storage\partition\Release\partition.lib;..\storage\perfschema\Release\perfschema.lib;..\plugin\fulltext\Release\ngram_parser.lib;..\vio\Release\vio.lib;..\regex\Release\regex.lib;..\extra\yassl\Release\yassl.lib;..\extra\yassl\taocrypt\Release\taocrypt.lib;..\libmysql\authentication_win\Release\auth_win_client.lib;Secur32.lib;..\mysys\Release\mysys.lib;..\dbug\Release\dbug.lib;..\mysys\Release\mysys.lib;..\dbug\Release\dbug.lib;..\zlib\Release\zlib.lib;..\strings\Release\strings.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/sql/Release/mysqld.lib</ImportLibrary>
+      <ModuleDefinitionFile>mysqld.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/sql/Release/mysqld.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\conn_handler;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\auth;F:\Software\mysql-5.7.12\mysql-5.7.12\regex;F:\Software\mysql-5.7.12\mysql-5.7.12\zlib;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\taocrypt\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4800;4805;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4099</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;_VARIADIC_MAX=10;HAVE_YASSL;YASSL_PREFIX;HAVE_OPENSSL;MULTI_THREADED;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;MYSQL_SERVER;HAVE_REPLICATION;AUTHENTICATION_WIN;CMAKE_INTDIR="MinSizeRel";mysqld_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;_VARIADIC_MAX=10;HAVE_YASSL;YASSL_PREFIX;HAVE_OPENSSL;MULTI_THREADED;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;MYSQL_SERVER;HAVE_REPLICATION;AUTHENTICATION_WIN;CMAKE_INTDIR=\"MinSizeRel\";mysqld_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\conn_handler;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\auth;F:\Software\mysql-5.7.12\mysql-5.7.12\regex;F:\Software\mysql-5.7.12\mysql-5.7.12\zlib;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\taocrypt\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\conn_handler;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\auth;F:\Software\mysql-5.7.12\mysql-5.7.12\regex;F:\Software\mysql-5.7.12\mysql-5.7.12\zlib;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\taocrypt\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message></Message>
+      <Command>setlocal
+cd F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\client\MinSizeRel\echo.exe x64 &amp;&amp; cscript //nologo F:/Software/mysql-5.7.12/mysql-5.7.12/win/create_def_file.js x64 F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\$(Configuration)\sql.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\$(Configuration)\binlog.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\$(Configuration)\slave.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\mysys\$(Configuration)\mysys.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\mysys_ssl\$(Configuration)\mysys_ssl.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\dbug\$(Configuration)\dbug.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\regex\$(Configuration)\regex.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\strings\$(Configuration)\strings.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\vio\$(Configuration)\vio.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\lib\$(Configuration)\binlogevents.lib &gt; mysqld.def
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;MinSizeRel\sql.lib;MinSizeRel\binlog.lib;MinSizeRel\rpl.lib;MinSizeRel\master.lib;MinSizeRel\slave.lib;MinSizeRel\sql.lib;..\mysys\MinSizeRel\mysys.lib;..\mysys_ssl\MinSizeRel\mysys_ssl.lib;..\libbinlogevents\lib\MinSizeRel\binlogevents.lib;..\storage\archive\MinSizeRel\archive.lib;..\storage\blackhole\MinSizeRel\blackhole.lib;..\storage\csv\MinSizeRel\csv.lib;..\storage\federated\MinSizeRel\federated.lib;..\storage\heap\MinSizeRel\heap.lib;..\storage\innobase\MinSizeRel\innobase.lib;..\extra\MinSizeRel\lz4_lib.lib;..\storage\myisam\MinSizeRel\myisam.lib;..\storage\myisammrg\MinSizeRel\myisammrg.lib;..\storage\partition\MinSizeRel\partition.lib;..\storage\perfschema\MinSizeRel\perfschema.lib;..\plugin\fulltext\MinSizeRel\ngram_parser.lib;..\vio\MinSizeRel\vio.lib;..\regex\MinSizeRel\regex.lib;..\extra\yassl\MinSizeRel\yassl.lib;..\extra\yassl\taocrypt\MinSizeRel\taocrypt.lib;..\libmysql\authentication_win\MinSizeRel\auth_win_client.lib;Secur32.lib;..\mysys\MinSizeRel\mysys.lib;..\dbug\MinSizeRel\dbug.lib;..\mysys\MinSizeRel\mysys.lib;..\dbug\MinSizeRel\dbug.lib;..\zlib\MinSizeRel\zlib.lib;..\strings\MinSizeRel\strings.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/sql/MinSizeRel/mysqld.lib</ImportLibrary>
+      <ModuleDefinitionFile>mysqld.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/sql/MinSizeRel/mysqld.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\conn_handler;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\auth;F:\Software\mysql-5.7.12\mysql-5.7.12\regex;F:\Software\mysql-5.7.12\mysql-5.7.12\zlib;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\taocrypt\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4800;4805;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4099</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;_VARIADIC_MAX=10;HAVE_YASSL;YASSL_PREFIX;HAVE_OPENSSL;MULTI_THREADED;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;MYSQL_SERVER;HAVE_REPLICATION;AUTHENTICATION_WIN;CMAKE_INTDIR="RelWithDebInfo";mysqld_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;_VARIADIC_MAX=10;HAVE_YASSL;YASSL_PREFIX;HAVE_OPENSSL;MULTI_THREADED;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;MYSQL_SERVER;HAVE_REPLICATION;AUTHENTICATION_WIN;CMAKE_INTDIR=\"RelWithDebInfo\";mysqld_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\conn_handler;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\auth;F:\Software\mysql-5.7.12\mysql-5.7.12\regex;F:\Software\mysql-5.7.12\mysql-5.7.12\zlib;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\taocrypt\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\rapidjson\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\export;F:\Software\mysql-5.7.12\mysql-5.7.12\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\conn_handler;F:\Software\mysql-5.7.12\mysql-5.7.12\libbinlogevents\include;F:\Software\mysql-5.7.12\mysql-5.7.12\sql;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\auth;F:\Software\mysql-5.7.12\mysql-5.7.12\regex;F:\Software\mysql-5.7.12\mysql-5.7.12\zlib;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\include;F:\Software\mysql-5.7.12\mysql-5.7.12\extra\yassl\taocrypt\include;F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message></Message>
+      <Command>setlocal
+cd F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\client\RelWithDebInfo\echo.exe x64 &amp;&amp; cscript //nologo F:/Software/mysql-5.7.12/mysql-5.7.12/win/create_def_file.js x64 F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\$(Configuration)\sql.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\$(Configuration)\binlog.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\$(Configuration)\slave.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\mysys\$(Configuration)\mysys.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\mysys_ssl\$(Configuration)\mysys_ssl.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\dbug\$(Configuration)\dbug.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\regex\$(Configuration)\regex.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\strings\$(Configuration)\strings.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\vio\$(Configuration)\vio.lib F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\lib\$(Configuration)\binlogevents.lib &gt; mysqld.def
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;RelWithDebInfo\sql.lib;RelWithDebInfo\binlog.lib;RelWithDebInfo\rpl.lib;RelWithDebInfo\master.lib;RelWithDebInfo\slave.lib;RelWithDebInfo\sql.lib;..\mysys\RelWithDebInfo\mysys.lib;..\mysys_ssl\RelWithDebInfo\mysys_ssl.lib;..\libbinlogevents\lib\RelWithDebInfo\binlogevents.lib;..\storage\archive\RelWithDebInfo\archive.lib;..\storage\blackhole\RelWithDebInfo\blackhole.lib;..\storage\csv\RelWithDebInfo\csv.lib;..\storage\federated\RelWithDebInfo\federated.lib;..\storage\heap\RelWithDebInfo\heap.lib;..\storage\innobase\RelWithDebInfo\innobase.lib;..\extra\RelWithDebInfo\lz4_lib.lib;..\storage\myisam\RelWithDebInfo\myisam.lib;..\storage\myisammrg\RelWithDebInfo\myisammrg.lib;..\storage\partition\RelWithDebInfo\partition.lib;..\storage\perfschema\RelWithDebInfo\perfschema.lib;..\plugin\fulltext\RelWithDebInfo\ngram_parser.lib;..\vio\RelWithDebInfo\vio.lib;..\regex\RelWithDebInfo\regex.lib;..\extra\yassl\RelWithDebInfo\yassl.lib;..\extra\yassl\taocrypt\RelWithDebInfo\taocrypt.lib;..\libmysql\authentication_win\RelWithDebInfo\auth_win_client.lib;Secur32.lib;..\mysys\RelWithDebInfo\mysys.lib;..\dbug\RelWithDebInfo\dbug.lib;..\mysys\RelWithDebInfo\mysys.lib;..\dbug\RelWithDebInfo\dbug.lib;..\zlib\RelWithDebInfo\zlib.lib;..\strings\RelWithDebInfo\strings.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/sql/RelWithDebInfo/mysqld.lib</ImportLibrary>
+      <ModuleDefinitionFile>mysqld.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/sql/RelWithDebInfo/mysqld.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Software\mysql-5.7.12\mysql-5.7.12\sql\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Software/mysql-5.7.12/mysql-5.7.12/sql/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Software/mysql-5.7.12/mysql-5.7.12 -BF:/Software/mysql-5.7.12/mysql-5.7.12/BUILD --check-stamp-file F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/sql/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/sql/CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\cmake\compile_flags.cmake;F:\Software\mysql-5.7.12\mysql-5.7.12\cmake\bison.cmake;F:\Software\mysql-5.7.12\mysql-5.7.12\cmake\make_dist.cmake.in;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Software/mysql-5.7.12/mysql-5.7.12/sql/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Software/mysql-5.7.12/mysql-5.7.12 -BF:/Software/mysql-5.7.12/mysql-5.7.12/BUILD --check-stamp-file F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/sql/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/sql/CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\cmake\compile_flags.cmake;F:\Software\mysql-5.7.12\mysql-5.7.12\cmake\bison.cmake;F:\Software\mysql-5.7.12\mysql-5.7.12\cmake\make_dist.cmake.in;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/Software/mysql-5.7.12/mysql-5.7.12/sql/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Software/mysql-5.7.12/mysql-5.7.12 -BF:/Software/mysql-5.7.12/mysql-5.7.12/BUILD --check-stamp-file F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/sql/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/sql/CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\cmake\compile_flags.cmake;F:\Software\mysql-5.7.12\mysql-5.7.12\cmake\bison.cmake;F:\Software\mysql-5.7.12\mysql-5.7.12\cmake\make_dist.cmake.in;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/Software/mysql-5.7.12/mysql-5.7.12/sql/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Software/mysql-5.7.12/mysql-5.7.12 -BF:/Software/mysql-5.7.12/mysql-5.7.12/BUILD --check-stamp-file F:/Software/mysql-5.7.12/mysql-5.7.12/BUILD/sql/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/Software/mysql-5.7.12/mysql-5.7.12/sql/CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\CMakeLists.txt;F:\Software\mysql-5.7.12\mysql-5.7.12\cmake\compile_flags.cmake;F:\Software\mysql-5.7.12\mysql-5.7.12\cmake\bison.cmake;F:\Software\mysql-5.7.12\mysql-5.7.12\cmake\make_dist.cmake.in;F:\Software\mysql-5.7.12\mysql-5.7.12\sql\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\sql\main.cc" />
+    <ClCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\sql\nt_servc.cc" />
+    <ClInclude Include="F:\Software\mysql-5.7.12\mysql-5.7.12\sql\nt_servc.h" />
+    <ResourceCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\sql\message.rc" />
+    <ResourceCompile Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\versioninfo_exe.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\ZERO_CHECK.vcxproj">
+      <Project>{6E0F20AC-AF3F-3912-95DB-8A8B0DC35503}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\storage\archive\archive.vcxproj">
+      <Project>{9175162E-B35C-3ECF-98D1-CAA1E3D7EC61}</Project>
+      <Name>archive</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libmysql\authentication_win\auth_win_client.vcxproj">
+      <Project>{331A863F-8147-3AF3-97A9-D3943C08B54A}</Project>
+      <Name>auth_win_client</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\binlog.vcxproj">
+      <Project>{DC6DE5CA-6A90-3E46-9FDB-2ADA55901B81}</Project>
+      <Name>binlog</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\libbinlogevents\src\binlogevents_static.vcxproj">
+      <Project>{CBF56050-DE2C-3A0C-9ED1-C76A10312B9E}</Project>
+      <Name>binlogevents_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\storage\blackhole\blackhole.vcxproj">
+      <Project>{2D6C3985-2B75-39BB-A2D0-E6E39BC715B8}</Project>
+      <Name>blackhole</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\storage\csv\csv.vcxproj">
+      <Project>{FBF4F5B0-4AC3-3161-8653-06E21D94522D}</Project>
+      <Name>csv</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\dbug\dbug.vcxproj">
+      <Project>{AD5634B5-ACD2-3DD6-9DE6-5C02B7F2A644}</Project>
+      <Name>dbug</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\client\echo.vcxproj">
+      <Project>{69B97DBC-C8EF-32BF-AAC9-24154861769E}</Project>
+      <Name>echo</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\storage\federated\federated.vcxproj">
+      <Project>{21CDA9EF-0F38-36D6-8CC1-F66B7BC0F5BB}</Project>
+      <Name>federated</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\storage\heap\heap.vcxproj">
+      <Project>{50A7A9D2-E0A9-32FC-9BCE-10B8086AC5D2}</Project>
+      <Name>heap</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\storage\innobase\innobase.vcxproj">
+      <Project>{1978C3C7-7F07-394F-AA0B-6125EEDFBE0F}</Project>
+      <Name>innobase</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\extra\lz4_lib.vcxproj">
+      <Project>{80FEF251-8B54-3639-9A8C-E71456678EB1}</Project>
+      <Name>lz4_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\master.vcxproj">
+      <Project>{BA19D9D6-9449-3EA5-84B1-40E00D5FC62B}</Project>
+      <Name>master</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\storage\myisam\myisam.vcxproj">
+      <Project>{623DBD6F-6E00-3319-8667-CB9FAB4B2EC2}</Project>
+      <Name>myisam</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\storage\myisammrg\myisammrg.vcxproj">
+      <Project>{2F67F6F3-0F1A-3D35-AA6C-656A7880D7EA}</Project>
+      <Name>myisammrg</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\mysys_ssl\mysys_ssl.vcxproj">
+      <Project>{F91098A7-9BCB-3AAF-B676-550F4B14D802}</Project>
+      <Name>mysys_ssl</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\plugin\fulltext\ngram_parser.vcxproj">
+      <Project>{08D3E1FF-2CDF-3489-B574-379F5B38754D}</Project>
+      <Name>ngram_parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\storage\partition\partition.vcxproj">
+      <Project>{C0064807-C23E-3723-A08D-1E2B9FBCD4A9}</Project>
+      <Name>partition</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\storage\perfschema\perfschema.vcxproj">
+      <Project>{7E77AF7C-7CCD-3909-A7CA-754B39DCBB8B}</Project>
+      <Name>perfschema</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\regex\regex.vcxproj">
+      <Project>{BA379088-788B-3893-90A6-E79BD17F05C6}</Project>
+      <Name>regex</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\rpl.vcxproj">
+      <Project>{779FDB28-7DB5-34D4-B611-F644DE5DECA6}</Project>
+      <Name>rpl</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\slave.vcxproj">
+      <Project>{E364CBA3-29A4-3E49-8E4E-506D6A939B87}</Project>
+      <Name>slave</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\sql\sql.vcxproj">
+      <Project>{C69AF26E-56E1-3437-AEC0-292F6B6A929D}</Project>
+      <Name>sql</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\strings\strings.vcxproj">
+      <Project>{529575B8-D7B6-3174-82AB-248A3F27D1C7}</Project>
+      <Name>strings</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\extra\yassl\taocrypt\taocrypt.vcxproj">
+      <Project>{F082CB84-53B0-3B62-A96B-7CF329A619B0}</Project>
+      <Name>taocrypt</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\vio\vio.vcxproj">
+      <Project>{B0325E01-D369-39F0-A0C2-6B95E0418366}</Project>
+      <Name>vio</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\extra\yassl\yassl.vcxproj">
+      <Project>{7B08EFE0-5AAC-3438-B64F-D33F38C07B90}</Project>
+      <Name>yassl</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Software\mysql-5.7.12\mysql-5.7.12\BUILD\zlib\zlib.vcxproj">
+      <Project>{FCEE956E-945B-3C0C-8F0A-1AA53566DEC4}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
